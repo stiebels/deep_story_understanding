@@ -9,7 +9,7 @@ Our implementation is based on a (Tensorflow 0.7.1) Multi-layer Bi-directional R
 
 ### Preprocessing
 
-To overcome the deficiencies of the originally provided tokenisation, we implemented a complex set of rules that ensures uniform word representation across the corpus. The tokenization converts abbreviations ("won't") to their original form ("will not"), makes words lower case, and removes punctuation, numbers, and short words (< 2 characters). After the tokenisation, a common, freely available algorithmic stemmer (Porter Stemmer) converts each word into its stem. Then, in order to adapt the shape of input values to our model, stories were split up into single sentences in which every word was represented as a vector.
+We implemented a complex set of rules that ensures uniform word representation across the corpus. The tokenization converts abbreviations ("won't") to their original form ("will not"), makes words lower case, and removes punctuation, numbers, and short words (< 2 characters). After the tokenisation, a common, freely available algorithmic stemmer (Porter Stemmer) converts each word into its stem. Then, in order to adapt the shape of input values to our model, stories were split up into single sentences in which every word was represented as a vector.
 
 ### Model
 
