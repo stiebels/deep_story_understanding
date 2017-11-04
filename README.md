@@ -5,7 +5,7 @@ This project was done in a team of 4 in the scope of the course Statistical Natu
 
 ### Overview
 
-Our implementation is based on a (Tensorflow 0.7.1) Multi-layer Bi-directional RNN, using LSTM, to produce Sentence Embeddings, followed by a feed forward ReLU layer.
+Our implementation is based on a (Tensorflow 0.7.1) Multi-layer Bi-directional RNN, using LSTM, to produce Sentence Embeddings, followed by a feed forward ReLU layer. The entire code, excluding the proprietary data, can be found in the iPython notebook "full_code.ipynb".
 
 ### Preprocessing
 
